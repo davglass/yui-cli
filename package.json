@@ -1,0 +1,26 @@
+{
+    "name": "yui-cli",
+    "description": "YUI file combiner",
+    "version": "0.0.1",
+    "author": "Dav Glass <davglass@gmail.com>",
+    "bugs": { "web" : "http://github.com/davglass/yui-cli/issues" },
+    "contributors": [
+        { "name": "Dav Glass", "email": "davglass@gmail.com" }
+    ],
+    "bin": { "yui-cli": "./lib/yui-cli.js" },
+    "engines": { "node": ">= 0.1.199" },
+    "dependencies": {
+        "cli": ">=0.2.0",
+        "yui3": ">=0.5.17"
+    },    
+    "licenses":[
+        {
+            "type" : "BSD",
+            "url" : "https://github.com/davglass/yui-cli/blob/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type":"git",
+        "url":"http://github.com/davglass/yui-cli.git"
+    }
+}
