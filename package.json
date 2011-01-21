@@ -11,8 +11,8 @@
     "engines": { "node": ">= 0.2.0" },
     "dependencies": {
         "cli": ">=0.2.0",
-        "yui3": ">=0.5.19"
-        "yui3": "3.3.0"
+        "yui3": ">=0.5.19",
+        "yui3-core": "3.3.0"
     },    
     "licenses":[
         {
