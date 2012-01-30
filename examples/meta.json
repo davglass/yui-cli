@@ -1,0 +1,20 @@
+{
+    "foo": {
+        "fullpath": "./lib/foo.js"
+    },
+    "bar": {
+        "fullpath": "./lib/bar.js"
+    },
+    "somecss": {
+        "type": "css",
+        "fullpath": "./lib/somecss.css"
+    },
+    "baz": {
+        "fullpath": "./lib/baz.js",
+        "requires": [
+            "foo",
+            "bar",
+            "somecss"
+        ]
+    }
+}
